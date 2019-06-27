@@ -1,0 +1,129 @@
+body {
+    color: black;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap');
+    margin: 0;
+    padding: 0;
+}
+
+div#content {
+    position: fixed;
+    overflow: auto;
+    margin: 58px 0 10px 0;
+    height: 90%;
+    /* box-sizing: border-box; */
+    width: 100%;
+}
+
+.column {
+    width: 800px;
+    margin: 15px auto 0 auto;
+}
+
+div.section, div.top {
+    padding: 20px 0 20px 0;
+}
+
+div#header {
+    margin-bottom: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    height: 58px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid;
+}
+
+div#logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#header #navigation {
+    text-align: right;
+}
+
+div#header #navigation a {
+    color: grey;
+    font-size: 14px;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div.picture {
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+div.picture img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+div.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social div {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+}
+
+div.keybase {
+    background-image: url(../images/keybase.svg);
+}
+
+div.researchgate {
+    background-image: url(../images/researchgate.svg);
+}
+
+div.twitter {
+    background-image: url(../images/twitter.svg);
+}
+
+div.github {
+    background-image: url(../images/github.svg);
+}
+
+div.linkedin {
+    background-image: url(../images/linkedin.svg);
+}
+
+div#content ul {
+    list-style-type: square;
+}
+
+div .top, div .research, div .teaching {
+    background-color:rgba(238,238,238,0.95);
+}
+
+div#footer {
+    border-top: solid 1px grey;
+    color: #555;
+    font-size: 12px;
+    padding: 20px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
