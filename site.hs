@@ -3,7 +3,6 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 
-
 --------------------------------------------------------------------------------
 config :: Configuration
 config = defaultConfiguration {
@@ -20,30 +19,48 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "sections/*" $ do -- compile templateBodyCompiler
+    match "templates/*" $ compile templateBodyCompiler
+
+    match "sections/pubs/*" $ do
         route   $ setExtension ".html"
         compile $ do
             pandocCompiler
                 >>= saveSnapshot "default"
                 >>= return . fmap demoteHeaders
-                -- >>= loadAndApplyTemplate "templates/post.html" postCtx
-                -- >>= loadAndApplyTemplate "templates/content.html" defaultContext
-                -- >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= relativizeUrls
+
+    match "sections/*" $ do
+        route   $ setExtension ".html"
+        compile $ do
+          pandocCompiler
+                >>= saveSnapshot "default"
+                >>= return . fmap demoteHeaders
                 >>= relativizeUrls
 
     match "index.html" $ do
         route $ setExtension "html"
         compile $ do
+          let ctxt = listField "pubs" defaultContext (loadAll "sections/pubs/*" >>= return . reverse) <>
+                     defaultContext
           let indexContext =
-                listField "sections" defaultContext (loadAll "sections/*") <>
+                listField "sections" ctxt (loadAll "sections/*") <>
                 defaultContext
+
           pandocCompiler
             >>= applyAsTemplate indexContext
-            -- >>= loadAndApplyTemplate "templates/sections.html" indexContext
             >>= loadAndApplyTemplate "templates/default.html" indexContext
             >>= relativizeUrls
 
-    match "templates/*" $ compile templateBodyCompiler
+    -- match "sections/3_publications.html" $ do
+    --     route $ setExtension "html"
+    --     compile $ do
+    --       let indexContext =
+    --             listField "pubs" defaultContext (loadAll "pubs/*") <>
+    --             defaultContext
+    --       pandocCompiler
+    --         >>= applyAsTemplate indexContext
+    --         >>= loadAndApplyTemplate "../templates/pubs.html" indexContext
+    --         >>= relativizeUrls
 
 makeHtml :: Rules ()
 makeHtml = do

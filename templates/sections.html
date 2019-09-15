@@ -1,8 +1,39 @@
 $for(sections)$
-<div class="section $url$" id="$url$">
+  <div class="section $url$" id="$url$">
+  <div class="left-column">
+    <h2>$title$</h2>
+  </div>
+
 <div class="column $url$">
-  <h2>$title$</h2>
-  $body$
+  $if(isPub)$
+
+  <ul>
+    $for(pubs)$
+    <li>
+    <strong>$title$</strong>
+    <input class="pub abstract" id="abstract$label$" type="checkbox"d>
+    <label for="abstract$label$"><button>Preprint</button></label>
+    <input class="pub bib" id="bib$label$" type="checkbox"d>
+    <label for="bib$label$"><button>BibTex</button></label>
+    <br>
+    <a href="$urlConf$">$conference$</a>
+    $if(accept)$
+    <i>(acceptance ratio $accept$)</i>
+    $endif$
+    <br>
+    with $authors$
+    </br>
+    </br>
+    $body$
+    </li>
+    $endfor$
+  </ul>
+
+  $else$
+
+    $body$
+
+  $endif$
 </div>
 </div>
 $endfor$
