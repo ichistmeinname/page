@@ -37,7 +37,7 @@ main = hakyllWith config $ do
                 >>= return . fmap demoteHeaders
                 >>= relativizeUrls
 
-    match "index.html" $ do
+    match "index.markdown" $ do
         route $ setExtension "html"
         compile $ do
           let ctxt = listField "pubs" defaultContext (loadAll "sections/pubs/*" >>= return . reverse) <>
