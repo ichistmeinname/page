@@ -7,3 +7,5 @@ public
 .stack-work
 thumb/
 thumbs.db
+dist-newstyle
+.ghc.environment.x86_64-darwin-8.6.3
