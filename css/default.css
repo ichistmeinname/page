@@ -20,7 +20,7 @@ div.top{
 }
 
 
-@media (min-width: 756px) {
+@media (min-width: 667px) {
 
     div.section{
 	padding:30px 20px 30px 20px;
@@ -86,11 +86,11 @@ li.haskell {
 
 div#header{
     color: maroon;
-    margin-bottom:30px;
-    padding:20px;
+    /* margin-bottom:30px; */
+    /* padding:20px 30px 0px 0px; */
     position:fixed;
     top:0;
-    height:58px;
+    /* height:58px; */
     width:100%;
     box-sizing:border-box;
     border-bottom:2px solid
@@ -105,7 +105,10 @@ div#logo a{
 }
 
 div#header #navigation{
-    text-align:right
+    text-align:right;
+    margin-bottom:16px;
+    padding:20px 30px 0px 0px;
+    height: 20px;
 }
 
 div#header #navigation a{
