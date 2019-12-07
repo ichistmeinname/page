@@ -7,6 +7,10 @@ body{
     padding:0
 }
 
+div.top{
+    padding:20px 0 20px 0
+}
+
 div#content{
     position:fixed;
     overflow:auto;
@@ -15,10 +19,17 @@ div#content{
     width:100%
 }
 
-div.top{
-    padding:20px 0 20px 0
+div#header{
+    color: maroon;
+    margin-bottom:30px;
+    padding: 20px 20px 20px 0px;
+    position:fixed;
+    top:0;
+    height:58px;
+    width:100%;
+    box-sizing:border-box;
+    border-bottom:2px solid
 }
-
 
 @media (min-width: 667px) {
 
@@ -84,20 +95,6 @@ li.haskell {
     background-image: url("../images/haskell-colour.png");
 }
 
-div#header{
-    color: maroon;
-    margin-bottom:30px;
-    padding-right: 20px;
-    padding-top:20px;
-    padding-bottom:20px;
-    position:fixed;
-    top:0;
-    height:58px;
-    width:100%;
-    box-sizing:border-box;
-    border-bottom:2px solid
-}
-
 div#logo a{
     color:black;
     float:left;
@@ -111,11 +108,13 @@ div#header #navigation{
 }
 
 div#header #navigation a{
+    display:inline;
     color:maroon;
     font-size:14px;
     margin-left:12px;
     text-decoration:none;
-    text-transform:uppercase
+    text-transform:uppercase;
+    line-height: 20px;
 }
 
 div.picture{

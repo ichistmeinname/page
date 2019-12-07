@@ -32,11 +32,13 @@
 	border-radius:50%
     }
 
+    div .social {
+	justify-content:center;
+    }
+
     .social div{
-	width:45px;
-	height:45px;
 	margin:0 10px;
-	background-size: 45px;
+	background-size: 45px 45px;
 	background-repeat:no-repeat
     }
 
@@ -49,8 +51,28 @@
 	text-align: left;
     }
 
-    div#navigation {
-	margin-bottom: 20px;
+}
+
+@media (max-width: 447px) {
+
+    div#header{
+	color: maroon;
+	margin-bottom:20px;
+	padding: 20px 20px 20px 0px;
+	position:fixed;
+	top:0;
+	height: 78px;
+	width:100%;
+	box-sizing:border-box;
+	border-bottom:2px solid
+    }
+
+    div#content {
+	position:fixed;
+	overflow:auto;
+	margin:78px 0 10px 0;
+	height:100%;
+	width:100%
     }
 
 }
