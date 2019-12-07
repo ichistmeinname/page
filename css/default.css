@@ -87,6 +87,7 @@ li.haskell {
 div#header{
     color: maroon;
     margin-bottom:30px;
+    padding-right: 20px;
     padding-top:20px;
     padding-bottom:20px;
     position:fixed;
