@@ -19,17 +19,42 @@ div.top{
     padding:20px 0 20px 0
 }
 
-div.section{
-    padding:30px 20px 30px 20px;
-    display:flex;
-    justify-content:center
-}
 
-.column{
-    flex:1;
-    padding:0px 50px 0px 50px;
-    max-width: 1000px;
-    text-align:justify
+@media (min-width: 756px) {
+
+    div.section{
+	padding:30px 20px 30px 20px;
+	display:flex;
+	justify-content:center
+    }
+
+    .column{
+	flex:1;
+	padding:0px 50px 0px 50px;
+	width: 75%;
+	max-width:1000px;
+	text-align:justify
+    }
+
+    div.left-column{
+	display:flex;
+	flex:0 0 10%;
+	justify-content:center
+    }
+
+    div.left-column h2{
+	font-size:50px;
+	writing-mode:vertical-lr;
+	text-align:center;
+	padding:0px auto 0px auto
+    }
+
+    div.picture img{
+	width:500px;
+	height:500px;
+	border-radius:50%
+    }
+
 }
 
 .column .publications li{
@@ -57,19 +82,6 @@ li.coq {
 
 li.haskell {
     background-image: url("../images/haskell-colour.png");
-}
-
-div.left-column{
-    display:flex;
-    flex:0 0 10%;
-    justify-content:center
-}
-
-div.left-column h2{
-    font-size:50px;
-    writing-mode:vertical-lr;
-    text-align:center;
-    padding:0px auto 0px auto
 }
 
 div#header{
@@ -107,12 +119,6 @@ div#header #navigation a{
 div.picture{
     text-align:center;
     padding:25px 0 25px 0
-}
-
-div.picture img{
-    width:500px;
-    height:500px;
-    border-radius:50%
 }
 
 div.social{
@@ -201,9 +207,9 @@ div#publications button{
     font-weight: 800;
 }
 
-.publications div {
-    display: overflow;
-}
+/* .publications div { */
+/*     display: overflow; */
+/* } */
 
 .abstract:checked~.abstract{
     height:200px;
@@ -225,7 +231,7 @@ a:any-link {
 
 .expand{
     height:0px;
-    width:90%;
+    max-width:50%;
     font-style:italic;
     overflow:scroll;
     transition:height 0.5s;
