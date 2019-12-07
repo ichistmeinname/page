@@ -49,4 +49,8 @@
 	text-align: left;
     }
 
+    div#navigation {
+	margin-bottom: 20px;
+    }
+
 }

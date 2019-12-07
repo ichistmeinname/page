@@ -86,11 +86,12 @@ li.haskell {
 
 div#header{
     color: maroon;
-    /* margin-bottom:30px; */
-    /* padding:20px 30px 0px 0px; */
+    margin-bottom:30px;
+    padding-top:20px;
+    padding-bottom:20px;
     position:fixed;
     top:0;
-    /* height:58px; */
+    height:58px;
     width:100%;
     box-sizing:border-box;
     border-bottom:2px solid
@@ -105,10 +106,7 @@ div#logo a{
 }
 
 div#header #navigation{
-    text-align:right;
-    margin-bottom:16px;
-    padding:20px 30px 0px 0px;
-    height: 20px;
+    text-align:right
 }
 
 div#header #navigation a{
