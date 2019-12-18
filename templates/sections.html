@@ -18,20 +18,19 @@ $for(sections)$
       <strong>$title$</strong>
       <div>
 	<a href="$urlPaper$"><button>Preprint</button></a>
-	<input class="pub abstract" id="abstract$label$" type="checkbox"d>
-	<label for="abstract$label$"><button>Abstract</button></label>
-	<input class="pub bib" id="bib$label$" type="checkbox"d>
-	<label for="bib$label$"><button>BibTex</button></label>
+	<input class="pub abstract" id="abstract$label$" type="checkbox">
+	<label for="abstract$label$" class="toggle-lbl"><button>Abstract</button></label>
+	<input class="pub bib" id="bib$label$" type="checkbox">
+	<label for="bib$label$" class="toggle-lbl"><button>BibTex</button></label>
+	<br/>
+	<a href="$urlConf$">$conference$</a>
+	$if(accept)$
+	<i>(acceptance ratio $accept$)</i>
+	$endif$
+	<br>
+	with $authors$
+	$body$
       </div>
-      <a href="$urlConf$">$conference$</a>
-      $if(accept)$
-      <i>(acceptance ratio $accept$)</i>
-      $endif$
-      <br>
-      with $authors$
-      </br>
-      </br>
-      $body$
       </li>
       $endfor$
     </ul>

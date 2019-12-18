@@ -182,14 +182,12 @@ div.info{
     font-style:italic;
 }
 
-input.pub{
-    display:none;
-    visibility:hidden;
-}
-
 div#publications li{
     list-style-type:none;
     line-height: 18pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 div#publications strong{
@@ -206,34 +204,54 @@ div#publications button{
     border-style: none;
     color: white;
     font-weight: 800;
+    /* cursor: pointer; */
 }
 
-/* .publications div { */
-/*     display: overflow; */
-/* } */
-
-.abstract:checked~.abstract{
-    height:200px;
-    background-color:rgba(250,250,250,1.0);
-    padding: 10pt 10pt 10pt 10pt;
+input.pub{
+    display:none;
+    visibility:hidden;
 }
 
-.bib:checked~.bib{
-    height:350px
+div .expand {
+    /* padding: 25px 5px 5px 25px; */
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    overflow: scroll;
 }
 
-div .bib{
-    background-color:rgba(238,238,238,0.95)
+div .expand.bib pre {
+    background-color:rgba(238,238,238,0.95);
+}
+
+.expand {
+    display: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+input.abstract:checked ~ #abstractExpand{
+    display: block;
+    max-height: 300px;
+}
+
+input.bib:checked ~ .bib {
+    display: block;
+    max-height: 300px;
+}
+
+
+.toggle-lbl {
+    /* display: block; */
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+button {
+    cursor: pointer;
 }
 
 a:any-link {
     color: maroon;
-}
-
-.expand{
-    height:0px;
-    max-width:50%;
-    font-style:italic;
-    overflow:scroll;
-    transition:height 0.5s;
 }
