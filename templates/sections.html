@@ -16,12 +16,12 @@ $for(sections)$
       $for(pubs)$
       <li>
       <strong>$title$</strong>
-      <div>
+      <div id="$label$">
 	<a href="$urlPaper$"><button>Preprint</button></a>
 	<input class="pub abstract" id="abstract$label$" type="checkbox">
-	<label for="abstract$label$" class="toggle-lbl"><button>Abstract</button></label>
+	<button><label for="abstract$label$" class="toggle-lbl">Abstract</label></button>
 	<input class="pub bib" id="bib$label$" type="checkbox">
-	<label for="bib$label$" class="toggle-lbl"><button>BibTex</button></label>
+	<button><label for="bib$label$" class="toggle-lbl">BibTex</label></button>
 	<br/>
 	<a href="$urlConf$">$conference$</a>
 	$if(accept)$
