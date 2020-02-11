@@ -9,10 +9,11 @@ label: Verifying
 ---
 
 <div class="expand abstract" id="abstractExpand" >
+  </br>
+  <b>Abstract
   <pre>
-  <p>
   We show how various Haskell language features that are related to
-  ambient e ects can be modeled in Coq. For this purpose we build on
+  ambient effects can be modeled in Coq. For this purpose we build on
   previous work that demonstrates how to reason about existing Haskell
   programs by translating them into monadic Coq programs. A model of
   Haskell programs in Coq that is polymorphic over an arbitrary monad
@@ -21,25 +22,25 @@ label: Verifying
   accepted by Coq’s termination checker. Therefore, instead of a model
   that is generic over any monad, the approach we build on uses a
   specific monad instance, namely the free monad in combination with
-  containers, to model various kinds of e ects. This model allows
+  containers, to model various kinds of effects. This model allows
   effect-generic proofs.
   </br>
   In this paper we consider ambient effects that may occur in Haskell,
   namely partiality, errors, and tracing, in detail. We observe that,
   while proving propositions that hold for all kinds of effects is
   attractive, not all propositions of interest hold for all kinds of
-  effects. Some propositions fail for certain e ects because the
+  effects. Some propositions fail for certain effects because the
   usual monadic translation models call-by-name and not call-by-need. Since
   modeling the evaluation semantics of call-by-need in the presence
-  of e ects like partiality is complex and not necessary to prove
+  of effects like partiality is complex and not necessary to prove
   propositions for a variety of effects, we identify a specific class
-  of effects for which we cannot observe a di erence between
+  of effects for which we cannot observe a difference between
   call-by-name and call-by-need. Using this class of effects we can
   prove propositions for all effects that do not require a model of
   sharing.
-  </p>
   </pre>
-</div>
+  </div>
+
 <div class="expand bib" id="bibExpand">
   <pre>
     <code>
@@ -53,6 +54,3 @@ label: Verifying
     publisher = {ACM},
     address   = {New York, NY, USA},
     }
-    </code>
-  </pre>
-</div>
