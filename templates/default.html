@@ -16,10 +16,17 @@
 </div>
 <div id="navigation">
   <a href="#top">Top</a>
-  <a href="#aboutme">About Me</a>
-  <a href="#research">Research</a>
-  <a href="#publications">Publications</a>
-  <a href="#teaching">Teaching</a>
+
+  $for(sections)$
+    $if(isPrivate)$
+
+    $else$
+
+    <a href="#$url$">$title$</a>
+
+    $endif$
+  $endfor$
+
 </div>
 </div>
 <div id="content">
