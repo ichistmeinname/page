@@ -39,6 +39,11 @@ div#header{
 	justify-content:center
     }
 
+    .itemize {
+	margin: 50px;
+	display: flex;
+    }
+    
     .column{
 	flex:1;
 	padding:0px 50px 0px 50px;
@@ -47,9 +52,9 @@ div#header{
 	text-align:justify
     }
 
-    div.left-column{
+    div.left-column, .list-item{
 	display:flex;
-	flex:0 0 10%;
+	flex:0 0 15%;
 	justify-content:center
     }
 
@@ -72,33 +77,29 @@ div#header{
     list-style-type: none;
 }
 
-.itemize li {
-    margin: 50px;
-    padding: 10px 0 10px 120px;
-    list-style: none;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 75px;
-
+.list-item {
+    margin: 0 auto;
 }
 
-li.freeproving {
-    background-image: url("../images/cokell.svg");
-    background-size: 100px;
-}
-
-li.curry {
+div.curry {
     background-image: url("../images/curry-colour.svg");
+    background-size: 75px;
 }
 
-li.coq {
+div.coq {
     background-image: url("../images/coq.svg");
-    background-position-x: 15px;
+    background-position-x: 25px;
     background-size: 50px;
 }
 
-li.haskell {
+div.haskell {
     background-image: url("../images/haskell-colour.png");
+    background-size: 75px;
+}
+
+div.freeproving {
+    background-image: url("../images/cokell.svg");
+    background-size: 75px;
 }
 
 div#logo a{
@@ -125,19 +126,29 @@ div#header #navigation a{
 
 div.picture{
     text-align:center;
-    padding:25px 0 25px 0
+    padding:25px 0 25px 0;
 }
 
 div.social{
     display:flex;
-    justify-content:center
+    justify-content: center;
 }
 
-.social div{
-    width:60px;
-    height:60px;
-    margin:0 20px;
-    background-repeat:no-repeat
+.social div {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.list-item {
+    width:  75px;
+    height: 75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 0px;
+    align-self: center;
 }
 
 div.keybase{
