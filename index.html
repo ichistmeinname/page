@@ -20,13 +20,13 @@
   
     
 
-    <a href="#/sections/1_aboutme.html">1_aboutme</a>
+    <a href="#aboutme">About me</a>
 
     
   
     
 
-    <a href="#/sections/2_research.html">2_research</a>
+    <a href="#research">Research</a>
 
     
   
@@ -77,26 +77,40 @@
 <p><span class="math inline">
   
 
-  <div class="section /sections/1_aboutme.html" id="/sections/1_aboutme.html">
+  <div class="section aboutme" id="aboutme">
   <div class="left-column">
-    <h2>1_aboutme</h2>
+    <h2>About me</h2>
   </div>
 
-  <div class="column /sections/1_aboutme.html">
+  <div class="column aboutme">
     
     
 
-    I received my PhD Student at the <em>Programming Languages and Compiler Construction</em> group at the University of Kiel in Februrary 2020. My main interest lies in <strong>functional programming</strong>. This interest comes in different flavours.
-<ul class="itemize">
-<li class="curry">
+    I received my PhD at the <a href="https://www.ps.informatik.uni-kiel.de/en/team/m-sc-sandra-dylus">Programming Languages and Compiler Construction</a> group at the University of Kiel in February 2020. My main interest lies in <strong>functional programming</strong>. This interest comes in different flavours.
+<div class="itemize">
+<div class="list-item curry">
+
+</div>
+<div class="column about-me">
 As my group develops the <strong>functional logic programming language</strong> Curry <a href="http://curry-lang.org"><span class="fas fa-external-link-square-alt"></span></a>, I take every challenge to ease the usage of the language for new users. I’m also always looking for domains that are especially well-suited regarding the usage of functional logic programming features.
-</li>
-<li class="haskell">
+</div>
+</div>
+<div class="itemize">
+<div class="list-item haskell">
+
+</div>
+<div class="column about-me">
 My first language of choice, however, is the <strong>functional language</strong> Haskell <a href="https://haskell.org"><span class="fas fa-external-link-square-alt"></span></a>. When I learn about new techniques, I’ll try them in Haskell first. As one of Curry’s compilers generates Haskell code, I am also interested in finding the best represention of functional logic features in Haskell.
-</li>
-<li class="coq">
+</div>
+</div>
+<div class="itemize">
+<div class="list-item coq">
+
+</div>
+<div class="column about-me">
 I’m also very keen about <strong>dependently-typed programming</strong> in Coq <a href="https://coq.inria.fr"><span class="fas fa-external-link-square-alt"></span></a>. Coq is my go-to-language when it comes to proving properties about my functional programs or formalising any theory of a programming language.
-</li>
+</div>
+</div>
 
     
 
@@ -106,19 +120,23 @@ I’m also very keen about <strong>dependently-typed programming</strong> in Coq
  
   
 
-  <div class="section /sections/2_research.html" id="/sections/2_research.html">
+  <div class="section research" id="research">
   <div class="left-column">
-    <h2>2_research</h2>
+    <h2>Research</h2>
   </div>
 
-  <div class="column /sections/2_research.html">
+  <div class="column research">
     
     
 
-    <ul class="itemize">
-<li class="freeproving">
+    <div class="itemize">
+<div class="list-item freeproving">
+
+</div>
+<div class="column">
 The <a href="https://github.com/FreeProving">FreeProving</a> projects aims at modelling non-strict effectful programs in the proof assistant Coq to formalise properties of such programs. We currently have a <a href="https://github.com/FreeProving/free-compiler">prototype compiler</a> that transforms Haskell code into Coq using a representation based on free monads. The semantics correspond to call-by-name. The general idea and basic transformation scheme is explained in the publication <a href="#Monad">One Monad to Prove Them All</a>, which is set in a fairy-tale theme. The succeeding publication <a href="#Verifying">Verifying Effectful Haskell Programs Using Coq</a> sets the focus on more complex effects like error messages and tracing as well as advanced Haskell constructs like strict fields. A current topic for future work involves a representation that models call-by-need in order to prove properties about Haskell programs containing tracing effects, or Curry programs that entail non-determinism as an effect.
-</li>
+</div>
+</div>
 
     
 
