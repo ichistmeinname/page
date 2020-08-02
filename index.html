@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sandra Dylus, PhD - index</title>
+<title>Sandra Dylus, PhD</title>
 <link rel="stylesheet" type="text/css" href="./css/default.css">
 <link rel="stylesheet" type="text/css" href="./css/mobile-default.css">
 <script src="https://kit.fontawesome.com/36ad8efc82.js" crossorigin="anonymous"></script>
@@ -32,13 +32,11 @@
   
     
 
-    <a href="#/sections/3_publications.html">3_publications</a>
+    <a href="#publications">Publications</a>
 
     
   
     
-
-    <a href="#/sections/4_teaching.html">4_teaching</a>
 
     
   
@@ -86,7 +84,7 @@
     
     
 
-    I received my PhD at the <a href="https://www.ps.informatik.uni-kiel.de/en/team/m-sc-sandra-dylus">Programming Languages and Compiler Construction</a> group at the University of Kiel in February 2020. My main interest lies in <strong>functional programming</strong>. This interest comes in different flavours.
+    I received my PhD at the <em>Programming Languages and Compiler Construction</em> group at the University of Kiel in February 2020. My main interest lies in <strong>functional programming</strong>. This interest comes in different flavours.
 <div class="itemize">
 <div class="list-item curry">
 
@@ -146,17 +144,322 @@ The <a href="https://github.com/FreeProving">FreeProving</a> projects aims at mo
  
   
 
-  <div class="section /sections/3_publications.html" id="/sections/3_publications.html">
+  <div class="section publications" id="publications">
   <div class="left-column">
-    <h2>3_publications</h2>
+    <h2>Publications</h2>
   </div>
 
-  <div class="column /sections/3_publications.html">
+  <div class="column publications">
     
     
 
     <ul>
-</ul>
+      
+      <li>
+      <strong>Verifying Effectful Haskell Programs in Coq</strong>
+      <div id="Verifying">
+	<a href="https://www-ps.informatik.uni-kiel.de/~sad/haskell2019-preprint.pdf"><button>Preprint</button></a>
+	<input class="pub abstract" id="abstractVerifying" type="checkbox">
+	<button><label for="abstractVerifying" class="toggle-lbl">Abstract</label></button>
+	<input class="pub bib" id="bibVerifying" type="checkbox">
+	<button><label for="bibVerifying" class="toggle-lbl">BibTex</label></button>
+	<br />
+	<a href="https://icfp19.sigplan.org/home/haskellsymp-2019#event-overview">Haskell Symposium 2019</a>
+	
+	<i>(acceptance ratio 13/25)</i>
+	
+	<br>
+	with Jan Christiansen, and Niels Bunkenburg
+	<div id="abstractExpand" class="expand abstract">
+</br> <strong>Abstract</strong>
+<pre><code>  We show how various Haskell language features that are related to
+  ambient effects can be modeled in Coq. For this purpose we build on
+  previous work that demonstrates how to reason about existing Haskell
+  programs by translating them into monadic Coq programs. A model of
+  Haskell programs in Coq that is polymorphic over an arbitrary monad
+  results in non-strictly positive types when transforming recursive
+  data types likes lists. Such non-strictly positive types are not
+  accepted by Coq’s termination checker. Therefore, instead of a model
+  that is generic over any monad, the approach we build on uses a
+  specific monad instance, namely the free monad in combination with
+  containers, to model various kinds of effects. This model allows
+  effect-generic proofs.
+  
+  In this paper we consider ambient effects that may occur in Haskell,
+  namely partiality, errors, and tracing, in detail. We observe that,
+  while proving propositions that hold for all kinds of effects is
+  attractive, not all propositions of interest hold for all kinds of
+  effects. Some propositions fail for certain effects because the
+  usual monadic translation models call-by-name and not call-by-need. Since
+  modeling the evaluation semantics of call-by-need in the presence
+  of effects like partiality is complex and not necessary to prove
+  propositions for a variety of effects, we identify a specific class
+  of effects for which we cannot observe a difference between
+  call-by-name and call-by-need. Using this class of effects we can
+  prove propositions for all effects that do not require a model of
+  sharing.
+  </code></pre>
+</div>
+<div id="bibExpand" class="expand bib">
+<pre><code>    
+    @inproceedings{christiansen2019verifying
+    author    = {Christiansen, Jan and Dylus, Sandra and Bunkenburg, Niels},
+    title     = {Verifying Effectful Haskell Programs in Coq},
+    booktitle = {Proceedings of the 12th International Symposium on Haskell},
+    series    = {ICFP 2019},
+    year      = {2019},
+    location  = {Berlin, Germany},
+    publisher = {ACM},
+    address   = {New York, NY, USA},
+    }</code></pre>
+</div>
+      </div>
+      </li>
+      
+      <li>
+      <strong>Implementing a Library for Probabilistic Programming using Non-strict Non-determinism</strong>
+      <div id="Implementing">
+	<a href="https://arxiv.org/pdf/1905.07212.pdf"><button>Preprint</button></a>
+	<input class="pub abstract" id="abstractImplementing" type="checkbox">
+	<button><label for="abstractImplementing" class="toggle-lbl">Abstract</label></button>
+	<input class="pub bib" id="bibImplementing" type="checkbox">
+	<button><label for="bibImplementing" class="toggle-lbl">BibTex</label></button>
+	<br />
+	<a href="https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming">Journal on Theory and Practice of Logic Programming, July 2019</a>
+	
+	<br>
+	with Jan Christiansen, and Finn Teegen
+	<div id="abstractExpand" class="expand abstract">
+</br> <strong>Abstract</strong>
+<pre><code>  This paper presents PFLP, a library for probabilistic programming in
+  the functional logic programming language Curry. It demonstrates how
+  the concepts of a functional logic programming language support the
+  implementation of a library for probabilistic programming. In fact,
+  the paradigms of functional logic and probabilistic programming are
+  closely connected. That is, language characteristics from one area
+  exist in the other and vice versa. For example, the concepts of
+  non-deterministic choice and call-time choice as known from
+  functional logic programming are related to and coincide with
+  stochastic memoization and probabilistic choice in probabilistic
+  programming, respectively.
+
+  We will further see that an implementation based on the concepts of
+  functional logic programming can have benefits with respect to
+  performance compared to a standard list-based implementation and can
+  even compete with full-blown probabilistic programming languages,
+  which we illustrate by several benchmarks. Under consideration in
+  Theory and Practice of Logic Programming (TPLP).
+  </code></pre>
+</div>
+<div id="bibExpand" class="expand bib">
+<pre><code>    
+    @article{dylus2019implementing,
+    title     = {Implementing a Library for Probabilistic Programming Using Non-strict Non-determinism},
+    DOI       = {10.1017/S1471068419000085},
+    journal   = {Theory and Practice of Logic Programming},
+    publisher = {Cambridge University Press},
+    author    = {Dylus, Sandra and Christiansen, Jan and Teegen, Finn},
+    pages     = {1–29}
+    }</code></pre>
+</div>
+      </div>
+      </li>
+      
+      <li>
+      <strong>One Monad To Prove Them All</strong>
+      <div id="Monad">
+	<a href="https://arxiv.org/pdf/1805.08059.pdf"><button>Preprint</button></a>
+	<input class="pub abstract" id="abstractMonad" type="checkbox">
+	<button><label for="abstractMonad" class="toggle-lbl">Abstract</label></button>
+	<input class="pub bib" id="bibMonad" type="checkbox">
+	<button><label for="bibMonad" class="toggle-lbl">BibTex</label></button>
+	<br />
+	<a href="https://2019.programming-conference.org/track/programming-2019-papers#event-overview">Journal on the Art, Science, and Engineering of Programming, Volume 3, 2019</a>
+	
+	<br>
+	with Jan Christiansen, and Finn Teegen
+	<div id="abstractExpand" class="expand abstract">
+</br> <strong>Abstract</strong>
+<pre><code>  One Monad to Prove Them All is a modern fairy tale about curiosity
+  and perseverance, two important properties of a successful PhD
+  student. We follow the PhD student Mona on her adventure of proving
+  properties about Haskell programs in the proof assistant Coq.
+  
+  On the one hand, as a PhD student in computer science Mona observes
+  an increasing demand for correct software products. In particular,
+  because of the large amount of existing software, verifying existing
+  software products becomes more important. Verifying programs in the
+  functional programming language Haskell is no exception. On the
+  other hand, Mona is delighted to see that communities in the area of
+  theorem proving are becoming popular. Thus, Mona sets out to learn
+  more about the interactive theorem prover Coq and verifying Haskell
+  programs in Coq.
+  
+  To prove properties about a Haskell function in Coq, Mona has to
+  translate the function into Coq code. As Coq programs have to be
+  total and Haskell programs are often not, Mona has to model
+  partiality explicitly in Coq. In her quest for a solution Mona  nds
+  an ancient manuscript that explains how properties about Haskell
+  functions can be proven in the proof assistant Agda by translating
+  Haskell programs into monadic Agda programs. By instantiating the
+  monadic program with a concrete monad instance the proof can be
+  performed in either a total or a partial setting. Mona discovers
+  that the proposed transformation does not work in Coq due to a
+  restriction in the termination checker. In fact the transformation
+  does not work in Agda anymore as well, as the termination checker in
+  Agda has been improved.
+  
+  We follow Mona on an educational journey through the land of
+  functional programming where she learns about concepts like free
+  monads and containers as well as basics and restrictions of proof
+  assistants like Coq. These concepts are well-known individually, but
+  their interplay gives rise to a solution for Mona’s problem based on
+  the originally proposed monadic tranformation that has not been
+  presented before. When Mona starts to test her approach by proving a
+  statement about simple Haskell functions, she realizes that her
+  approach has an additional advantage over the original idea in
+  Agda. Mona’s final solution not only works for a speci c monad
+  instance but even allows her to prove monad-generic
+  properties. Instead of proving properties over and over again for
+  speci c monad instances she is able to prove properties that hold
+  for all monads representable by a container-based instance of the
+  free monad. In order to strengthen her con dence in the
+  practicability of her approach, Mona evaluates her approach in a
+  case study that compares two implementations for queues. In order to
+  share the results with other functional programmers the fairy tale
+is available as a literate Coq file.
+  
+  If you are a citizen of the land of functional programming or are at
+  least familiar with its customs, had a journey that involved
+  reasoning about functional programs of your own, or are just a
+  curious soul looking for the next story about monads and proofs,
+then this tale is for you.
+  </code></pre>
+</div>
+<div id="bibExpand" class="expand bib">
+<pre><code>    
+    @article{dylus2019One,
+    author    = {Sandra Dylus and
+                 Jan Christiansen and
+                 Finn Teegen},
+    title     = {One Monad to Prove Them All},
+    journal   = {Programming Journal},
+    volume    = {3},
+    number    = {3},
+    pages     = {8},
+    year      = {2019},
+    url       = {https://doi.org/10.22152/programming-journal.org/2019/3/8},
+    doi       = {10.22152/programming-journal.org/2019/3/8},
+    }</code></pre>
+</div>
+      </div>
+      </li>
+      
+      <li>
+      <strong>Probabilistic Functional Logic Programming</strong>
+      <div id="PFLP">
+	<a href="http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf"><button>Preprint</button></a>
+	<input class="pub abstract" id="abstractPFLP" type="checkbox">
+	<button><label for="abstractPFLP" class="toggle-lbl">Abstract</label></button>
+	<input class="pub bib" id="bibPFLP" type="checkbox">
+	<button><label for="bibPFLP" class="toggle-lbl">BibTex</label></button>
+	<br />
+	<a href="https://popl18.sigplan.org/track/PADL-2018#event-overview">International Symposium on Practical Aspects of Declarative Languages 2018</a>
+	
+	<i>(acceptance ratio 13/23)</i>
+	
+	<br>
+	with Jan Christiansen, and Finn Teegen
+	<div id="abstractExpand" class="expand abstract">
+</br> <strong>Abstract</strong>
+<pre><code>  This paper presents PFLP, a library for probabilistic programming in
+  the functional logic programming language Curry. It demonstrates how
+  the concepts of a functional logic programming language support the
+  implementation of a library for probabilistic programming.
+  
+  In fact, the paradigms of functional logic and probabilistic
+  programming are closely connected. That is, we can apply techniques
+  from one area to the other and vice versa. We will see that an
+  implementation based on the concepts of functional logic programming
+  can have benefits with respect to performance compared to a standard
+  list-based implementation.
+  </code></pre>
+</div>
+<div id="bibExpand" class="expand bib">
+<pre><code>    
+    @inproceedings{dylus2018probabilistic,
+    author    = {Dylus, Sandra and Christiansen, Jan and Teegen, Finn},
+    editor    = {Calimeri, Francesco and Hamlen, Kevin and Leone, Nicola},
+    title     = {Probabilistic Functional Logic Programming},
+    booktitle = {Practical Aspects of Declarative Languages},
+    year      = {2018},
+    publisher = {Springer International Publishing},
+    address   = {Cham},
+    pages     = {3--19},
+    isbn      = {978-3-319-73305-0}
+    }</code></pre>
+</div>
+      </div>
+      </li>
+      
+      <li>
+      <strong>All Sorts of Permutations (Functional Pearl)</strong>
+      <div id="Sorts">
+	<a href="http://www-ps.informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf"><button>Preprint</button></a>
+	<input class="pub abstract" id="abstractSorts" type="checkbox">
+	<button><label for="abstractSorts" class="toggle-lbl">Abstract</label></button>
+	<input class="pub bib" id="bibSorts" type="checkbox">
+	<button><label for="bibSorts" class="toggle-lbl">BibTex</label></button>
+	<br />
+	<a href="https://icfp16.sigplan.org/track/icfp-2016-papers#event-overview">International Conference on Functional Programming 2016</a>
+	
+	<i>(acceptance ratio 37/115)</i>
+	
+	<br>
+	with Jan Christiansen, and Nikita Danilenko
+	<div id="abstractExpand" class="expand abstract">
+</br> <strong>Abstract</strong>
+<pre><code>  The combination of non-determinism and sorting is mostly associated
+  with permutation sort, a sorting algorithm that is not very useful
+  for sorting and has an awful running time. In this paper we look at
+  the combination of non-determinism and sorting in a different light:
+  given a sorting function, we apply it to a non-deterministic
+  predicate to gain a function that enumerates permutations of the
+  input list. We get to the bottom of necessary properties of the
+  sorting algorithms and predicates in play as well as discuss
+  variations of the modelled non-determinism.
+  
+  On top of that, we formulate and prove a theorem stating that no
+  matter which sorting function we use, the corresponding permutation
+  function enumerates all permutations of the input list. We use free
+  theorems, which are derived from the type of a function alone, to
+  prove the statement.
+  </code></pre>
+</div>
+<div id="bibExpand" class="expand bib">
+<pre><code>    
+    @inproceedings{christiansen2016sorts
+    author    = {Christiansen, Jan and Danilenko, Nikita and Dylus, Sandra},
+    title     = {All Sorts of Permutations (Functional Pearl)},
+    booktitle = {Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming},
+    series    = {ICFP 2016},
+    year      = {2016},
+    isbn      = {978-1-4503-4219-3},
+    location  = {Nara, Japan},
+    pages     = {168--179},
+    numpages  = {12},
+    url       = {http://doi.acm.org/10.1145/2951913.2951949},
+    doi       = {10.1145/2951913.2951949},
+    acmid     = {2951949},
+    publisher = {ACM},
+    address   = {New York, NY, USA},
+    keywords  = {Haskell, free theorems, monads, non-determinism, permutation, sorting},
+    }</code></pre>
+</div>
+      </div>
+      </li>
+      
+    </ul>
 
     
 
@@ -166,21 +469,6 @@ The <a href="https://github.com/FreeProving">FreeProving</a> projects aims at mo
  
   
 
-  <div class="section /sections/4_teaching.html" id="/sections/4_teaching.html">
-  <div class="left-column">
-    <h2>4_teaching</h2>
-  </div>
-
-  <div class="column /sections/4_teaching.html">
-    
-    
-
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-    
-
-  </div>
-  </div>
   
  </span></p>
 <div id="footer">
