@@ -1,112 +1,745 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30mm" height="30mm" version="1.1" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <g transform="translate(-226.21 -123.45)">
-  <image x="55.245" y="27.879" width="52.917" height="52.917" preserveAspectRatio="none" xlink:href="data:image/png;base64,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 oOD/AwAA//9nfk89GI+mQQAAAABJRU5ErkJggg== "/>
-  <path d="m78.945 104.9h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="93.945" cy="104.9" r="15" fill="#a5cf00"/>
-  <path d="m90.024 98.193c-0.26373 0.52372-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75595 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81859 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31144-0.75525 0.10647-1.4072-0.47247-1.9844z" fill="#fff"/>
-  <text x="87.3172" y="116.92947" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="87.3172" y="116.92947" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  <path d="m19.018 101.68h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="34.018" cy="101.68" r="15" fill="#a5cf00"/>
-  <path d="m30.097 94.965c-0.26373 0.52372-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75595 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81859 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31144-0.75525 0.10647-1.4072-0.47247-1.9844z" fill="#fff"/>
-  <text transform="rotate(-90)" x="-108.07685" y="43.859844" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="-108.07685" y="43.859844" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  <path d="m15.994 139.85h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="30.994" cy="139.85" r="15" fill="#a5cf00"/>
-  <path d="m27.073 133.14c-0.26373 0.52372-0.73303 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75595 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81859 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31144-0.75524 0.10647-1.4072-0.47247-1.9844z" fill="#fff"/>
-  <text transform="rotate(-90)" x="-146.25244" y="40.836037" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="-146.25244" y="40.836037" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  <path d="m20.908 64.067h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="35.908" cy="64.067" r="15" fill="#a5cf00"/>
-  <g>
-   <path d="m26.942 60.419c-0.14332 0.2846-0.39834 1.1792 0 1.1961 1.8109 0.0766 2.8468-0.11774 2.8468-0.11774l-2.054 2.0027c0.0905 0.27837 0.12717 0.59463 0.4108 0.87295 1.0143-0.1663 1.8859-0.13797 1.8486 1.1297-0.27364 1.1386-1.0935 1.4579-2.7216 0.56485-0.44484 0.19515-0.498 0.5357-0.66755 0.82161 0.64756 0.84309 1.4731 0.88544 2.3108 0.87295 1.4576-0.19745 2.3232-0.88831 2.6189-2.054 0.09064-1.743-0.96383-2.0286-1.9-2.4648l1.6432-1.7973c0.16924-0.41042 0.05785-0.76471-0.25675-1.0784z" fill="#fff"/>
-   <text x="32.499023" y="67.493324" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="32.499023" y="67.493324" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">T</tspan></text>
-   <text x="37.500706" y="67.407761" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="37.500706" y="67.407761" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">alk</tspan></text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30mm"
+   height="30.000011mm"
+   viewBox="0 0 30 30.000011"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   sodipodi:docname="cap3-talk.svg"
+   inkscape:export-filename="/Users/sad/Downloads/cap3-talk.png"
+   inkscape:export-xdpi="109.83498"
+   inkscape:export-ydpi="109.83498">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-15.117102"
+     inkscape:cy="56.634083"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1792"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-226.21075,-123.44561)">
+    <image
+       width="52.916668"
+       height="52.916668"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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 oOD/AwAA//9nfk89GI+mQQAAAABJRU5ErkJggg== "
+       id="image911"
+       x="55.244766"
+       y="27.878525" />
+    <path
+       id="rect915"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="m 78.945236,104.9033 h 15 v 15 c -4.579192,-3.54419 -10.596309,-3.2797 -15,0 3.446324,-5 3.608465,-10 0,-15 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917"
+       cx="93.945229"
+       cy="104.9033"
+       r="15" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.024433,98.192775 c -0.263726,0.523724 -0.733025,2.170035 0,2.201045 3.332441,0.14094 5.238689,-0.21667 5.238689,-0.21667 l -3.77976,3.68527 c 0.16657,0.51225 0.234008,1.09424 0.755951,1.6064 1.866519,-0.30603 3.470381,-0.25389 3.401785,2.07887 -0.503557,2.09524 -2.01227,2.68274 -5.008184,1.03943 -0.818586,0.35911 -0.916412,0.98579 -1.228423,1.51191 1.191638,1.55144 2.710724,1.62937 4.252232,1.6064 2.682304,-0.36334 4.275032,-1.63465 4.819194,-3.77976 0.16678,-3.20744 -1.773634,-3.733 -3.496277,-4.53572 l 3.023809,-3.30729 c 0.311438,-0.755246 0.106468,-1.407209 -0.472469,-1.984378 z"
+       id="path920"
+       sodipodi:nodetypes="cscccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48749px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="87.3172"
+       y="116.92947"
+       id="text924"><tspan
+         sodipodi:role="line"
+         id="tspan922"
+         x="87.3172"
+         y="116.92947"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    <path
+       id="rect915-0"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="m 19.017865,101.6756 h 15 v 15 c -4.579192,-3.54419 -10.596309,-3.2797 -15,0 3.446324,-5 3.608465,-10 0,-15 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917-6"
+       cx="34.017857"
+       cy="101.67559"
+       r="15" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 30.097062,94.965071 c -0.263727,0.523725 -0.733025,2.170036 0,2.201046 3.332441,0.14094 5.238689,-0.21667 5.238689,-0.21667 l -3.779761,3.685273 c 0.16657,0.51225 0.234009,1.09424 0.755952,1.6064 1.866519,-0.30603 3.470381,-0.25389 3.401785,2.07887 -0.503557,2.09524 -2.01227,2.68274 -5.008184,1.03943 -0.818587,0.35911 -0.916413,0.98579 -1.228423,1.51191 1.191638,1.55144 2.710724,1.62937 4.252232,1.6064 2.682304,-0.36334 4.275032,-1.63465 4.819194,-3.77976 0.16678,-3.20744 -1.773634,-3.733 -3.496277,-4.53572 l 3.023809,-3.307293 c 0.311438,-0.755246 0.106468,-1.407209 -0.47247,-1.984379 z"
+       id="path920-3"
+       sodipodi:nodetypes="cscccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="-108.07685"
+       y="43.859844"
+       id="text924-33"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan922-80"
+         x="-108.07685"
+         y="43.859844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    <path
+       id="rect915-0-6"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="m 15.994056,139.8512 h 15.000001 v 15 c -4.579193,-3.54419 -10.59631,-3.2797 -15.000001,0 3.446324,-5 3.608465,-10 0,-15 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917-6-2"
+       cx="30.994047"
+       cy="139.85118"
+       r="15" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 27.073254,133.14067 c -0.263728,0.52372 -0.733026,2.17003 0,2.20104 3.33244,0.14094 5.238689,-0.21667 5.238689,-0.21667 l -3.779762,3.68528 c 0.16657,0.51225 0.23401,1.09424 0.755953,1.6064 1.866519,-0.30603 3.47038,-0.25389 3.401785,2.07887 -0.503558,2.09524 -2.01227,2.68274 -5.008185,1.03943 -0.818587,0.35911 -0.916413,0.98579 -1.228422,1.51191 1.191637,1.55144 2.710724,1.62937 4.252232,1.6064 2.682304,-0.36334 4.275032,-1.63465 4.819194,-3.77976 0.16678,-3.20744 -1.773634,-3.733 -3.496277,-4.53572 l 3.023809,-3.3073 c 0.311438,-0.75524 0.106468,-1.40721 -0.472471,-1.98438 z"
+       id="path920-3-6"
+       sodipodi:nodetypes="cscccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="-146.25244"
+       y="40.836037"
+       id="text924-33-2"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan922-80-8"
+         x="-146.25244"
+         y="40.836037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    <path
+       id="rect915-0-5"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="m 20.907747,64.066969 h 15.000001 v 14.999999 c -4.579193,-3.544189 -10.59631,-3.279698 -15.000001,0 3.446324,-4.999999 3.608465,-9.999999 0,-14.999999 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917-6-6"
+       cx="35.907738"
+       cy="64.066971"
+       r="15" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14378px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 26.94189,60.418566 c -0.143316,0.284603 -0.398343,1.179248 0,1.196097 1.810923,0.0766 2.846821,-0.11774 2.846821,-0.11774 l -2.054008,2.002658 c 0.0905,0.278368 0.127168,0.594634 0.410803,0.872953 1.014307,-0.166303 1.885883,-0.137968 1.848607,1.129706 -0.273644,1.138598 -1.093515,1.457859 -2.721561,0.564849 -0.444839,0.195148 -0.498001,0.5357 -0.667552,0.821606 0.647563,0.843086 1.473067,0.885435 2.310756,0.872954 1.457626,-0.197449 2.32315,-0.888307 2.618859,-2.054007 0.09064,-1.742995 -0.96383,-2.028594 -1.899954,-2.464811 l 1.643205,-1.797259 c 0.169242,-0.410417 0.05785,-0.764708 -0.256751,-1.078355 z"
+       id="path920-3-7"
+       sodipodi:nodetypes="cscccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="32.499023"
+       y="67.493324"
+       id="text924-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan922-7-0"
+         x="32.499023"
+         y="67.493324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;stroke:none;stroke-width:0.137188;stroke-opacity:1">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="37.500706"
+       y="67.407761"
+       id="text924-2-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan922-7-0-9"
+         x="37.500706"
+         y="67.407761"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;stroke:none;stroke-width:0.137188;stroke-opacity:1">alk</tspan></text>
+    <path
+       id="rect915-0-5-6"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="m 22.632637,24.911136 h 15.000001 v 15 c -4.579193,-3.54419 -10.596309,-3.279698 -15.000001,0 3.446325,-5 3.608465,-10 0,-15 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917-6-6-4"
+       cx="37.632626"
+       cy="24.911137"
+       r="15" />
+    <g
+       id="g1225"
+       transform="rotate(180,29.95236,18.221827)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1265"
+       transform="translate(0.94212114,-0.26282856)">
+      <g
+         id="g1257">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+           x="31.048908"
+           y="27.279154"
+           id="text924-2-7-3"><tspan
+             sodipodi:role="line"
+             id="tspan922-7-0-3"
+             x="31.048908"
+             y="27.279154"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">T</tspan></text>
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14378px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 28.137613,23.908566 c -0.143316,0.284603 -0.398342,1.179248 0,1.196097 1.810923,0.0766 2.846822,-0.11774 2.846822,-0.11774 l -2.054008,2.002658 c 0.0905,0.278368 0.127168,0.594634 0.410803,0.872953 1.014306,-0.166303 1.885883,-0.137968 1.848606,1.129706 -0.273644,1.138598 -1.093514,1.457859 -2.721561,0.564849 -0.444838,0.195148 -0.498,0.5357 -0.667552,0.821606 0.647563,0.843086 1.473067,0.885435 2.310756,0.872954 1.457627,-0.197449 2.32315,-0.888307 2.618859,-2.054007 0.09064,-1.742995 -0.963829,-2.028594 -1.899954,-2.464811 l 1.643205,-1.797259 c 0.169242,-0.410417 0.05785,-0.764708 -0.25675,-1.078355 z"
+           id="path920-3-7-9"
+           sodipodi:nodetypes="cscccccccccccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="36.050591"
+         y="27.19359"
+         id="text924-2-7-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan922-7-0-9-3"
+           x="36.050591"
+           y="27.19359"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;stroke:none;stroke-width:0.137188;stroke-opacity:1">alk</tspan></text>
+    </g>
+    <g
+       id="g1225-6"
+       transform="rotate(180,38.682578,24.216675)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-1"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-0"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-0"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-4"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <path
+       id="rect915-0-5-6-2"
+       style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+       d="M 54.716728,0.10812116 H 69.71673 V 15.10812 c -4.579193,-3.544191 -10.596309,-3.279698 -15.000002,0 3.446326,-5.000001 3.608465,-9.9999992 0,-14.99999884 z"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+       id="path917-6-6-4-1"
+       cx="69.716713"
+       cy="0.10812172"
+       r="15" />
+    <g
+       id="g1350">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="61.958454"
+         y="1.1549754"
+         id="text924-2-7-3-4"><tspan
+           sodipodi:role="line"
+           id="tspan922-7-0-3-7"
+           x="61.958454"
+           y="1.1549754"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">T</tspan></text>
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.14378px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 67.586065,-3.5385294 c -0.143316,0.284603 -0.398342,1.1792481 0,1.1960971 1.810923,0.0766 2.846822,-0.11774 2.846822,-0.11774 l -2.054008,2.0026579 c 0.0905,0.27836797 0.127168,0.59463397 0.410803,0.87295297 1.014306,-0.166303 1.885883,-0.137968 1.848606,1.12970603 -0.273644,1.138598 -1.093514,1.457859 -2.721561,0.564849 -0.444838,0.195148 -0.498,0.5357 -0.667552,0.821606 0.647563,0.843086 1.473067,0.885435 2.310756,0.872954 1.457627,-0.197449 2.32315,-0.888307 2.618859,-2.054007 0.09064,-1.74299503 -0.963829,-2.02859403 -1.899954,-2.464811 l 1.643205,-1.7972589 c 0.169242,-0.4104171 0.05785,-0.7647081 -0.25675,-1.0783551 z"
+         id="path920-3-7-9-5"
+         sodipodi:nodetypes="cscccccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="73.310135"
+         y="1.2582662"
+         id="text924-2-7-4-8-3"><tspan
+           sodipodi:role="line"
+           id="tspan922-7-0-9-3-3"
+           x="73.310135"
+           y="1.2582662"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#ffffff;stroke:none;stroke-width:0.137188;stroke-opacity:1">lk</tspan></text>
+    </g>
+    <g
+       id="g1225-1"
+       transform="rotate(180,29.603859,37.27014)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-9"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-1"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-3"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-6"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1225-5"
+       transform="rotate(180,28.243145,63.388285)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-11"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-9"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-2"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-47"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1225-8"
+       transform="rotate(180,27.430496,75.729217)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-4"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-2"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-8"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-1"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1472">
+      <path
+         id="rect915-0-3"
+         style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+         d="m 113.39279,126.95303 h 15.00001 v 15 h -15.00001 z"
+         sodipodi:nodetypes="ccccc" />
+      <circle
+         style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+         id="path917-6-9"
+         cx="128.39275"
+         cy="126.95302"
+         r="15" />
+    </g>
+    <g
+       id="g1468">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 122.88448,120.77167 c -0.26372,0.52373 -0.73302,2.17004 0,2.20105 3.33245,0.14094 5.2387,-0.21667 5.2387,-0.21667 l -3.77977,3.68527 c 0.16657,0.51225 0.23401,1.09424 0.75596,1.6064 1.86652,-0.30603 3.47038,-0.25389 3.40178,2.07887 -0.50356,2.09524 -2.01227,2.68274 -5.00819,1.03943 -0.81858,0.35911 -0.91641,0.98579 -1.22842,1.51191 1.19164,1.55144 2.71073,1.62937 4.25224,1.6064 2.6823,-0.36334 4.27503,-1.63465 4.81919,-3.77976 0.16678,-3.20744 -1.77363,-3.733 -3.49628,-4.53572 l 3.02382,-3.30729 c 0.31143,-0.75525 0.10646,-1.40721 -0.47248,-1.98438 z"
+         id="path920-3-4"
+         sodipodi:nodetypes="cscccccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-133.35428"
+         y="136.64728"
+         id="text924-33-7"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan922-80-86"
+           x="-133.35428"
+           y="136.64728"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    </g>
+    <g
+       id="g1225-5-2"
+       transform="rotate(180,74.372266,77.879081)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-11-8"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-9-5"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-2-2"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-47-3"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1472-7"
+       transform="translate(33.438953,6.6817398)">
+      <path
+         id="rect915-0-3-4"
+         style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+         d="m 113.39279,126.95303 h 15.00001 v 15 h -15.00001 z"
+         sodipodi:nodetypes="ccccc" />
+      <circle
+         style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+         id="path917-6-9-9"
+         cx="128.39275"
+         cy="126.95302"
+         r="15" />
+    </g>
+    <g
+       id="g1468-2"
+       transform="translate(33.438953,6.6817398)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 122.88448,120.77167 c -0.26372,0.52373 -0.73302,2.17004 0,2.20105 3.33245,0.14094 5.2387,-0.21667 5.2387,-0.21667 l -3.77977,3.68527 c 0.16657,0.51225 0.23401,1.09424 0.75596,1.6064 1.86652,-0.30603 3.47038,-0.25389 3.40178,2.07887 -0.50356,2.09524 -2.01227,2.68274 -5.00819,1.03943 -0.81858,0.35911 -0.91641,0.98579 -1.22842,1.51191 1.19164,1.55144 2.71073,1.62937 4.25224,1.6064 2.6823,-0.36334 4.27503,-1.63465 4.81919,-3.77976 0.16678,-3.20744 -1.77363,-3.733 -3.49628,-4.53572 l 3.02382,-3.30729 c 0.31143,-0.75525 0.10646,-1.40721 -0.47248,-1.98438 z"
+         id="path920-3-4-8"
+         sodipodi:nodetypes="cscccccccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-133.35428"
+         y="136.64728"
+         id="text924-33-7-4"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           id="tspan922-80-86-3"
+           x="-133.35428"
+           y="136.64728"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    </g>
+    <g
+       id="g1225-5-2-2"
+       transform="rotate(180,91.620911,78.768569)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-11-8-5"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-9-5-6"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-2-2-0"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-47-3-0"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1472-7-1"
+       transform="translate(80.91157,16.01647)">
+      <path
+         id="rect915-0-3-4-2"
+         style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+         d="m 113.39279,126.95303 h 15.00001 v 15 h -15.00001 z"
+         sodipodi:nodetypes="ccccc" />
+      <circle
+         style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+         id="path917-6-9-9-6"
+         cx="128.39275"
+         cy="126.95302"
+         r="15" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="136.08217"
+       y="-214.43022"
+       id="text924-33-7-4-3"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan922-80-86-3-7"
+         x="136.08217"
+         y="-214.43022"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">Talk</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 205.38352,136.25897 c -0.26372,0.52373 -0.73302,2.17004 0,2.20105 3.33245,0.14094 5.2387,-0.21667 5.2387,-0.21667 l -3.77977,3.68527 c 0.16657,0.51225 0.23401,1.09424 0.75596,1.6064 1.86652,-0.30603 3.47038,-0.25389 3.40178,2.07887 -0.50356,2.09524 -2.01227,2.68274 -5.00819,1.03943 -0.81858,0.35911 -0.91641,0.98579 -1.22842,1.51191 1.19164,1.55144 2.71073,1.62937 4.25224,1.6064 2.6823,-0.36334 4.27503,-1.63465 4.81919,-3.77976 0.16678,-3.20744 -1.77363,-3.733 -3.49628,-4.53572 l 3.02382,-3.30729 c 0.31143,-0.75525 0.10646,-1.40721 -0.47248,-1.98438 z"
+       id="path920-3-4-8-1"
+       sodipodi:nodetypes="cscccccccccccc" />
+    <g
+       id="g1225-5-2-2-9"
+       transform="rotate(180,116.15096,83.171349)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-11-8-5-1"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-9-5-6-4"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-2-2-0-0"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-47-3-0-1"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
+    <g
+       id="g1472-7-1-6"
+       transform="translate(112.818,11.492591)"
+       inkscape:export-xdpi="109.83498"
+       inkscape:export-ydpi="109.83498">
+      <path
+         id="rect915-0-3-4-2-3"
+         style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+         d="m 113.39279,126.95303 h 15.00001 v 15 h -15.00001 z"
+         sodipodi:nodetypes="ccccc" />
+      <circle
+         style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+         id="path917-6-9-9-6-8"
+         cx="128.39275"
+         cy="126.95302"
+         r="15" />
+    </g>
+    <g
+       aria-label="talk"
+       transform="rotate(90,0.26458333,0.26458333)"
+       id="text924-33-7-4-3-6"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">
+      <path
+         d="m 133.073,-249.51391 h -0.19755 c -0.19207,0 -0.32925,-0.011 -0.48839,-0.0329 v 0.91641 c 0.15914,-0.022 0.30181,-0.0329 0.47741,-0.0329 h 0.20853 v 1.67917 c 0,0.37315 0.0768,0.55973 0.28534,0.71886 0.1756,0.1317 0.43352,0.19206 0.80666,0.19206 0.29633,0 0.51034,-0.0329 0.75728,-0.10975 l -0.0823,-0.83409 c -0.13718,0.0713 -0.24145,0.0988 -0.38412,0.0988 -0.10426,0 -0.19206,-0.022 -0.25242,-0.0604 -0.0713,-0.0494 -0.0988,-0.12621 -0.0988,-0.27986 v -1.4048 h 0.23048 c 0.19755,0 0.34022,0.011 0.50484,0.0329 v -0.91092 c -0.17011,0.022 -0.29632,0.0274 -0.53777,0.0274 h -0.19755 v -0.11523 c 0,-0.2634 0.0165,-0.5268 0.0439,-0.75179 h -1.11944 c 0.0329,0.25791 0.0439,0.47741 0.0439,0.75179 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         id="path994" />
+      <path
+         d="m 137.46581,-248.3341 c -0.3951,0.011 -0.55972,0.0165 -0.77374,0.0384 -0.49387,0.0439 -0.86153,0.15914 -1.14139,0.35669 -0.2634,0.18109 -0.40059,0.45546 -0.40059,0.80117 0,0.30181 0.10426,0.56521 0.30181,0.7463 0.2195,0.20304 0.53229,0.30181 0.94934,0.30181 0.44997,0 0.75727,-0.0933 1.06457,-0.32925 v 0.25243 h 1.06457 c -0.0274,-0.24694 -0.0384,-0.44449 -0.0384,-0.77922 v -1.48162 c 0,-0.49388 -0.15365,-0.79569 -0.50485,-0.98775 -0.21401,-0.11524 -0.60911,-0.19206 -1.01518,-0.19206 -0.53229,0 -0.93836,0.10426 -1.23469,0.31278 -0.23047,0.16463 -0.3512,0.34023 -0.46095,0.66399 l 1.04811,0.17011 c 0.0823,-0.26889 0.26889,-0.38412 0.62009,-0.38412 0.36217,0 0.52131,0.12072 0.52131,0.38412 z m 0,0.85605 c 0,0.16462 -0.0713,0.31279 -0.19755,0.42254 -0.14816,0.12621 -0.3951,0.20852 -0.62009,0.20852 -0.28534,0 -0.44997,-0.11524 -0.44997,-0.31279 0,-0.15913 0.12073,-0.29632 0.31827,-0.36217 0.22499,-0.0713 0.46095,-0.0988 0.94934,-0.10975 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         id="path996" />
+      <path
+         d="m 139.113,-250.73213 c 0.0329,0.20853 0.0439,0.439 0.0439,0.82861 v 2.90837 c 0,0.3951 -0.011,0.58167 -0.0439,0.82861 h 1.14688 c -0.0329,-0.29084 -0.0439,-0.49936 -0.0439,-0.82861 v -2.90837 c 0,-0.37315 0.011,-0.59813 0.0439,-0.82861 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         id="path998" />
+      <path
+         d="m 140.83855,-250.73213 c 0.0274,0.20304 0.0439,0.45546 0.0439,0.82861 v 2.90837 c 0,0.36217 -0.011,0.58167 -0.0439,0.82861 h 1.11945 c -0.0384,-0.2195 -0.0439,-0.3512 -0.0439,-0.80117 v -0.2195 l 0.41156,-0.3951 0.41705,0.68044 c 0.15913,0.2634 0.27986,0.50485 0.36217,0.73533 h 1.39931 c -0.15365,-0.18658 -0.1756,-0.2195 -0.51034,-0.7024 l -0.91641,-1.33895 0.79569,-0.76824 c 0.29632,-0.29084 0.36217,-0.3512 0.57618,-0.53778 h -1.45967 c -0.10426,0.15914 -0.22498,0.30182 -0.47741,0.55424 l -0.60362,0.59814 v -1.54199 c 0,-0.36766 0.011,-0.60362 0.0439,-0.82861 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         id="path1000" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 237.28996,131.73509 c -0.26372,0.52373 -0.73302,2.17004 0,2.20105 3.33245,0.14094 5.2387,-0.21667 5.2387,-0.21667 l -3.77977,3.68527 c 0.16657,0.51225 0.23401,1.09424 0.75596,1.6064 1.86652,-0.30603 3.47038,-0.25389 3.40178,2.07887 -0.50356,2.09524 -2.01227,2.68274 -5.00819,1.03943 -0.81858,0.35911 -0.91641,0.98579 -1.22842,1.51191 1.19164,1.55144 2.71073,1.62937 4.25224,1.6064 2.6823,-0.36334 4.27503,-1.63465 4.81919,-3.77976 0.16678,-3.20744 -1.77363,-3.733 -3.49628,-4.53572 l 3.02382,-3.30729 c 0.31143,-0.75525 0.10646,-1.40721 -0.47248,-1.98438 z"
+       id="path920-3-4-8-1-4"
+       sodipodi:nodetypes="cscccccccccccc"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
+    <g
+       id="g1225-5-2-2-9-6"
+       transform="matrix(-0.75802244,0,0,-0.75802244,257.39001,157.80969)"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109">
+      <g
+         aria-label=","
+         transform="scale(-1)"
+         id="text924-3-3-5-11-8-5-1-2"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">
+        <path
+           d="m -28.411685,-19.875472 h -1.781527 v 1.772707 h 1.014236 c -0.02646,0.32632 -0.0882,0.458611 -0.246945,0.599722 -0.176389,0.141111 -0.352777,0.211667 -0.696736,0.264584 l 0.388056,0.670277 c 0.423333,-0.09701 0.635,-0.202847 0.881944,-0.432153 0.291041,-0.264583 0.440972,-0.643819 0.440972,-1.10243 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+           id="path1003" />
+      </g>
+      <g
+         aria-label=","
+         transform="scale(-1)"
+         id="text924-3-8-7-9-2-2-0-0-4"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">
+        <path
+           d="m -30.769841,-19.875472 h -1.781527 v 1.772707 h 1.014235 c -0.02646,0.32632 -0.08819,0.458611 -0.246944,0.599722 -0.176389,0.141111 -0.352778,0.211667 -0.696736,0.264584 l 0.388056,0.670277 c 0.423333,-0.09701 0.634999,-0.202847 0.881944,-0.432153 0.291041,-0.264583 0.440972,-0.643819 0.440972,-1.10243 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+           id="path1006" />
+      </g>
+    </g>
+    <g
+       id="g1472-7-1-6-2"
+       transform="translate(111.82212,-21.70793)"
+       inkscape:export-xdpi="109.83498"
+       inkscape:export-ydpi="109.83498">
+      <path
+         id="rect915-0-3-4-2-3-0"
+         style="fill:#a5cf00;stroke:none;stroke-width:0.151008"
+         d="m 113.39279,126.95303 h 15.00001 v 15 h -15.00001 z"
+         sodipodi:nodetypes="ccccc" />
+      <circle
+         style="fill:#a5cf00;stroke:none;stroke-width:0.25;stroke-opacity:1"
+         id="path917-6-9-9-6-8-9"
+         cx="128.39275"
+         cy="126.95302"
+         r="15" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.48748px;line-height:1.25;font-family:sans-serif;fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+       x="99.148132"
+       y="-245.86995"
+       id="text924-33-7-4-3-6-5"
+       transform="rotate(90)"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109"><tspan
+         sodipodi:role="line"
+         id="tspan922-80-86-3-7-9-3"
+         x="99.148132"
+         y="-245.86995"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">talk</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 236.2941,98.534563 c -0.26372,0.52373 -0.73302,2.170037 0,2.201047 3.33245,0.14094 5.2387,-0.21667 5.2387,-0.21667 l -3.77977,3.68527 c 0.16657,0.51225 0.23401,1.09424 0.75596,1.6064 1.86652,-0.30603 3.47038,-0.25389 3.40178,2.07887 -0.50356,2.09524 -2.01227,2.68274 -5.00819,1.03943 -0.81858,0.35911 -0.91641,0.98579 -1.22842,1.51191 1.19164,1.55144 2.71073,1.62937 4.25224,1.6064 2.6823,-0.36334 4.27503,-1.63465 4.81919,-3.77976 0.16678,-3.20744 -1.77363,-3.733 -3.49628,-4.53572 l 3.02382,-3.30729 c 0.31143,-0.755247 0.10646,-1.407207 -0.47248,-1.984377 z"
+       id="path920-3-4-8-1-4-5"
+       sodipodi:nodetypes="cscccccccccccc"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109" />
+    <g
+       id="g1225-5-2-2-9-6-9"
+       transform="matrix(-0.75802244,0,0,-0.75802244,256.39414,124.60916)"
+       inkscape:export-xdpi="109"
+       inkscape:export-ydpi="109">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-30.643003"
+         y="-18.367348"
+         id="text924-3-3-5-11-8-5-1-2-8"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-1-0-9-5-6-4-9-9"
+           x="-30.643003"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1"
+         x="-33.00116"
+         y="-18.367348"
+         id="text924-3-8-7-9-2-2-0-0-4-1"
+         transform="scale(-1)"><tspan
+           sodipodi:role="line"
+           id="tspan922-8-8-0-0-47-3-0-1-9-2"
+           x="-33.00116"
+           y="-18.367348"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:'Hiragino Kaku Gothic Std';-inkscape-font-specification:'Hiragino Kaku Gothic Std';fill:#0073d1;fill-opacity:1;stroke:none;stroke-width:0.137188;stroke-opacity:1">,</tspan></text>
+    </g>
   </g>
-  <path d="m22.633 24.911h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="37.633" cy="24.911" r="15" fill="#a5cf00"/>
-  <g transform="rotate(180 29.952 18.222)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="translate(.94212 -.26283)">
-   <text x="31.048908" y="27.279154" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="31.048908" y="27.279154" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">T</tspan></text>
-   <path d="m28.138 23.909c-0.14332 0.2846-0.39834 1.1792 0 1.1961 1.8109 0.0766 2.8468-0.11774 2.8468-0.11774l-2.054 2.0027c0.0905 0.27837 0.12717 0.59463 0.4108 0.87295 1.0143-0.1663 1.8859-0.13797 1.8486 1.1297-0.27364 1.1386-1.0935 1.4579-2.7216 0.56485-0.44484 0.19515-0.498 0.5357-0.66755 0.82161 0.64756 0.84309 1.4731 0.88544 2.3108 0.87295 1.4576-0.19745 2.3232-0.88831 2.6189-2.054 0.09064-1.743-0.96383-2.0286-1.9-2.4648l1.6432-1.7973c0.16924-0.41042 0.05785-0.76471-0.25675-1.0784z" fill="#fff"/>
-   <text x="36.050591" y="27.19359" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="36.050591" y="27.19359" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">alk</tspan></text>
-  </g>
-  <g transform="rotate(180 38.683 24.217)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <path d="m54.717 0.10812h15v15c-4.5792-3.5442-10.596-3.2797-15 0 3.4463-5 3.6085-10 0-15z" fill="#a5cf00"/>
-  <circle cx="69.717" cy=".10812" r="15" fill="#a5cf00"/>
-  <g>
-   <text x="61.958454" y="1.1549754" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="61.958454" y="1.1549754" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">T</tspan></text>
-   <path d="m67.586-3.5385c-0.14332 0.2846-0.39834 1.1792 0 1.1961 1.8109 0.0766 2.8468-0.11774 2.8468-0.11774l-2.054 2.0027c0.0905 0.27837 0.12717 0.59463 0.4108 0.87295 1.0143-0.1663 1.8859-0.13797 1.8486 1.1297-0.27364 1.1386-1.0935 1.4579-2.7216 0.56485-0.44484 0.19515-0.498 0.5357-0.66755 0.82161 0.64756 0.84309 1.4731 0.88544 2.3108 0.87295 1.4576-0.19745 2.3232-0.88831 2.6189-2.054 0.09064-1.743-0.96383-2.0286-1.9-2.4648l1.6432-1.7973c0.16924-0.41042 0.05785-0.76471-0.25675-1.0784z" fill="#fff"/>
-   <text x="73.310135" y="1.2582662" fill="#ffffff" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="73.310135" y="1.2582662" fill="#ffffff" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">lk</tspan></text>
-  </g>
-  <g transform="rotate(180 29.604 37.27)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="rotate(180 28.243 63.388)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="rotate(180 27.43 75.729)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g fill="#a5cf00">
-   <path d="m113.39 126.95h15v15h-15z"/>
-   <circle cx="128.39" cy="126.95" r="15"/>
-  </g>
-  <g>
-   <path d="m122.88 120.77c-0.26372 0.52373-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75596 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81858 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31143-0.75525 0.10646-1.4072-0.47248-1.9844z" fill="#fff"/>
-   <text transform="rotate(-90)" x="-133.35428" y="136.64728" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="-133.35428" y="136.64728" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  </g>
-  <g transform="rotate(180 74.372 77.879)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="translate(33.439 6.6817)" fill="#a5cf00">
-   <path d="m113.39 126.95h15v15h-15z"/>
-   <circle cx="128.39" cy="126.95" r="15"/>
-  </g>
-  <g transform="translate(33.439 6.6817)">
-   <path d="m122.88 120.77c-0.26372 0.52373-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75596 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81858 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31143-0.75525 0.10646-1.4072-0.47248-1.9844z" fill="#fff"/>
-   <text transform="rotate(-90)" x="-133.35428" y="136.64728" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="-133.35428" y="136.64728" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  </g>
-  <g transform="rotate(180 91.621 78.769)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="translate(80.912 16.016)" fill="#a5cf00">
-   <path d="m113.39 126.95h15v15h-15z"/>
-   <circle cx="128.39" cy="126.95" r="15"/>
-  </g>
-  <text transform="rotate(90)" x="136.08217" y="-214.43022" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="136.08217" y="-214.43022" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">Talk</tspan></text>
-  <path d="m205.38 136.26c-0.26372 0.52373-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75596 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81858 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31143-0.75525 0.10646-1.4072-0.47248-1.9844z" fill="#fff"/>
-  <g transform="rotate(180 116.15 83.171)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
-  <g transform="translate(112.82 11.493)" fill="#a5cf00">
-   <path d="m113.39 126.95h15v15h-15z"/>
-   <circle cx="128.39" cy="126.95" r="15"/>
-  </g>
-  <text transform="rotate(90)" x="132.34865" y="-246.33665" fill="#0073d1" font-family="sans-serif" font-size="5.4875px" stroke-width=".13719" style="line-height:1.25" xml:space="preserve"><tspan x="132.34865" y="-246.33665" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" stroke-width=".13719">talk</tspan></text>
-  <path d="m237.29 131.74c-0.26372 0.52373-0.73302 2.17 0 2.201 3.3324 0.14094 5.2387-0.21667 5.2387-0.21667l-3.7798 3.6853c0.16657 0.51225 0.23401 1.0942 0.75596 1.6064 1.8665-0.30603 3.4704-0.25389 3.4018 2.0789-0.50356 2.0952-2.0123 2.6827-5.0082 1.0394-0.81858 0.35911-0.91641 0.98579-1.2284 1.5119 1.1916 1.5514 2.7107 1.6294 4.2522 1.6064 2.6823-0.36334 4.275-1.6346 4.8192-3.7798 0.16678-3.2074-1.7736-3.733-3.4963-4.5357l3.0238-3.3073c0.31143-0.75525 0.10646-1.4072-0.47248-1.9844z" fill="#fff"/>
-  <g transform="matrix(-.75802 0 0 -.75802 257.39 157.81)" fill="#ffffff" font-family="sans-serif" font-size="8.8194px" stroke-width=".13719">
-   <text transform="scale(-1)" x="-30.643003" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-30.643003" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-   <text transform="scale(-1)" x="-33.00116" y="-18.367348" style="line-height:1.25" xml:space="preserve"><tspan x="-33.00116" y="-18.367348" fill="#0073d1" font-family="'Hiragino Kaku Gothic Std'" font-size="8.8194px" stroke-width=".13719">,</tspan></text>
-  </g>
- </g>
 </svg>
